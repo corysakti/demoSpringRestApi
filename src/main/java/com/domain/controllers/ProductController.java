@@ -68,7 +68,7 @@ public class ProductController {
         responseData.setStatus(true  );
         responseData.setPayload(productService.save(product));
         return ResponseEntity.ok(responseData);
-        jam 1 hari jumat online, whatsapp, direply.
+        
     }
 
     @DeleteMapping("/{id}")
